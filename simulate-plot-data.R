@@ -4,9 +4,9 @@
 # 2024-09-05
 
 # Simulate predictor variable
-x <- rnorm(n = 500)
+x <- rnorm(n = 200)
 # Simulate response/target variable with some noise
-y <- 2 * x + rnorm(n = 500, sd = 0.5)
+y <- 2 * x + rnorm(n = 200, sd = 0.2)
 
 # Plot the data
 plot(x = x, y = y)
